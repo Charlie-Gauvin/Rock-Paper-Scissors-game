@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-
   return (
-<h1 className="text-3xl font-bold underline font-barlow">
-      Hello world!
-    </h1>
-  )
+    <div className="min-h-screen bg-radial-game font-barlow pt-24">
+      <Header  />
+    </div>
+  );
 }
 
-export default App
+export default App;
